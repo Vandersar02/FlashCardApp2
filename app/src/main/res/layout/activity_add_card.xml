@@ -26,7 +26,7 @@
         android:layout_below="@+id/editQuestion"
         android:ems="20"
         android:inputType="textMultiLine"
-        android:hint="Enter a answer here" />
+        android:hint="Enter the good answer here" />
 
     <EditText
         android:id="@+id/editAnswer2"
@@ -37,7 +37,7 @@
         android:layout_below="@+id/editAnswer1"
         android:ems="20"
         android:inputType="textMultiLine"
-        android:hint="Enter a another answer here" />
+        android:hint="Enter the first wrong answer here" />
 
     <EditText
         android:id="@+id/editAnswer3"
@@ -48,7 +48,7 @@
         android:layout_below="@+id/editAnswer2"
         android:ems="20"
         android:inputType="textMultiLine"
-        android:hint="Enter a another answer here" />
+        android:hint="Enter the second wrong here" />
 
     <ImageView
         android:id="@+id/closeBtn"
